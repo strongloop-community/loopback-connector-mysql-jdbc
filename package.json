@@ -1,0 +1,36 @@
+{
+  "name": "loopback-connector-mysql-jdbc",
+  "version": "2.0.1",
+  "description": "MySQL connector for loopback-datasource-juggler",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "debug": "^2.1.1",
+    "generic-pool": "^2.2.0",
+    "java": "^0.5.4",
+    "loopback-connector": "^2.0.0",
+    "loopback-connector-mysql": "^2.0.1",
+    "mysql": "^2.5.4"
+  },
+  "devDependencies": {
+    "bluebird": "~2.9.10",
+    "loopback-datasource-juggler": "^2.27.0",
+    "mocha": "^2.1.0",
+    "rc": "^1.0.0",
+    "should": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strongloop/loopback-connector-mysql.git"
+  },
+  "license": {
+    "name": "Dual MIT/StrongLoop",
+    "url": "https://github.com/strongloop/loopback-connector-mysql/blob/master/LICENSE"
+  },
+  "optionalDependencies": {
+    "sl-blip": "http://blip.strongloop.com/loopback-connector-mysql@2.0.1"
+  }
+}
